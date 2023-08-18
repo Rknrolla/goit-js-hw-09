@@ -13,7 +13,7 @@ startBtn.addEventListener('click', () => {
     const color = getRandomHexColor();
     document.body.style.backgroundColor = color;
     startBtn.disabled = true;
-  }, 1000);
+  }, 500);
 });
 
 stopBtn.addEventListener('click', () => {
